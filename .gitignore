@@ -37,7 +37,6 @@ _testmain.go
 ##other
 #node_modules/
 #bower_components/
-img/
 .tmp
 #.sass-cache
 #builds/**/images/*
