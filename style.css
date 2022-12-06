@@ -1,45 +1,265 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 *{
     box-sizing: border-box;
+
 }
-html.bod{
+.body{
     background-color: #E5E5E5;
 }
+
 header{
     
     background-color: #38AF90;
-    color: #FFFFFF;
     position: absolute;
-    width: 1200px;
-    height: 90px;
     top: 0;
-    padding: 20px 10px;
-   
-}
-.header a{
-   
-    float: none;
-    display: block;
-    text-align: left;
-
-}
-nav{
+    left: 0;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    z-index: 10;
 }
-nav li{
-    display: inline;
-    
-   
+header .logo{
+font-family: poppins;
+position: relative;
+font-size: 1.5em;
+color: #ffff;
+text-decoration: none;
+font-weight: 700;
 }
-h2{
-    padding-top: 90px;
+header .Navegation{
+font-family: poppins;
+font-weight: 500;
+display: flex; 
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px 0;
+}
+header .Navegation li{
+   list-style: none;
+    margin: 0 10px;
+}
+header .Navegation li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
-a,a:hover {
-    text-decoration: none;
-    color: unset;
+section .title{
+font-family: 'poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+color:#797979;
+position: absolute;
+
+width: 302px;
+height: 54px;
+left: 449px;
+top: 130px;
+
 }
+.box-1{
+position: absolute;
+width: 90%;
+height: 247px;
+left: 105px;
+top: 224px;
+padding-left: 40px;
+background: #F0F0F0;
+border-radius: 8px;
+
+}
+
+.box-1 h3{
+position: absolute;
+margin-bottom: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #38AF90;
+    
+}
+.box-1 h4{
+position: absolute;
+margin-top: 52px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */   
+color: #797979;
+}
+.box-1 p{
+position: absolut;
+margin-top: 112px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+line-height: 15px;
+
+color: #797979;
+}
+.title-2{
+position: absolute;
+width: 90%;
+height: 247px;
+left: 105px;
+top: 511px;
+padding-left: 40px;
+
+
+background: #F0F0F0;
+border-radius: 8px;
+}
+.title-2 h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;  
+color: #38AF90;
+}
+.title-2 h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #797979;   
+}
+.title-2 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+line-height: 15px;
+
+color: #797979;
+}
+.games{
+position: absolute;
+width: 1200px;
+height: 559px;
+left: 0px;
+top: 921px;
+
+background: #F0F0F0;   
+}
+.games h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+
+color: #38AF90;
+}
+.box{
+    width: 300px;
+    height: 326px;
+    left: 120px;
+    top: 1084px;
+   
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.box-2{
+width: 300px;
+height: 326px;
+left: 450px;
+top: 1084px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.box-3{
+
+width: 300px;
+height: 326px;
+left: 780px;
+top: 1084px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+}
+.subscribe{
+position: absolute;
+width: 790px;
+height: 522px;
+left: 205px;
+top: 1613px;
+text-align: center;
+padding: 20px;
+background: #F0F0F0;
+border-radius: 8px;
+}
+.subscribe h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+
+color: #797979;
+}
+input[type=text],input[type=email]{
+width: 642px;
+height: 50px;
+left: 278px;
+top: 1678px;
+margin-bottom: 20px;
+color: #C4C4C4;
+box-sizing: border-box;
+
+background: #FFFFFF;
+border: 1px solid #797979;
+border-radius: 4px;
+}
+.flooter
+{
+position: absolute;
+width: 100%;
+height: 190px;
+left: 0px;
+top: 2196px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #383838;
+}
+.contact
+{
+    font-family: poppins;
+    font-weight: 500;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.contact a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
 
