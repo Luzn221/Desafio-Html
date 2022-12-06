@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 
 }
 .body{
-    background-color: #E5E5E5;
+background-color: #E5E5E5;
 }
 
 header{
-    
-    background-color: #38AF90;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 100px;
-    z-index: 10;
+
+background-color: #38AF90;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 100px;
+z-index: 10;
 }
 header .logo{
 font-family: poppins;
@@ -38,14 +38,14 @@ flex-wrap: wrap;
 margin: 10px 0;
 }
 header .Navegation li{
-   list-style: none;
-    margin: 0 10px;
+list-style: none;
+margin: 0 10px;
 }
 header .Navegation li a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 1px;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
 }
 
 section .title{
@@ -63,9 +63,27 @@ left: 449px;
 top: 130px;
 
 }
+input[type=button]{
+position: absolute;
+width: 244px;
+height: 67px;
+left: 478px;
+top: 798px;
+
+background: #DD7E92;
+border-radius: 8px;  
+}
+input[type=button][value="Carregar Mais"]{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
 .box-1{
 position: absolute;
-width: 90%;
+width: 990px;
 height: 247px;
 left: 105px;
 top: 224px;
@@ -73,18 +91,18 @@ padding-left: 40px;
 background: #F0F0F0;
 border-radius: 8px;
 
+
 }
 
 .box-1 h3{
 position: absolute;
-margin-bottom: 10px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
-line-height: 36px;
+line-height: 16px;
 color: #38AF90;
-    
+
 }
 .box-1 h4{
 position: absolute;
@@ -93,7 +111,7 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 24px;
+line-height: 13px;
 /* identical to box height */   
 color: #797979;
 }
@@ -103,14 +121,14 @@ margin-top: 112px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 400;
-font-size: 100%;
+font-size: 10px;
 line-height: 15px;
 
 color: #797979;
 }
 .title-2{
 position: absolute;
-width: 90%;
+width: 990px;
 height: 247px;
 left: 105px;
 top: 511px;
@@ -121,80 +139,131 @@ background: #F0F0F0;
 border-radius: 8px;
 }
 .title-2 h3{
+position: absolute;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
-line-height: 36px;  
+line-height: 12px;  
 color: #38AF90;
 }
 .title-2 h4{
+position: absolute;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 24px;
-color: #797979;   
+line-height: 12px;
+color: #797979; 
+margin-top: 52px; 
 }
 .title-2 p{
+position: absolute;
+margin-top: 112px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 100%;
+font-size: 10px;
 line-height: 15px;
 
 color: #797979;
 }
-.games{
+.caixa{
 position: absolute;
 width: 1200px;
 height: 559px;
 left: 0px;
 top: 921px;
+background: #F0F0F0;
 
-background: #F0F0F0;   
+align-items: center;
+text-align: center;
 }
-.games h2{
+.caixa h2{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 54px;
+color: #38AF90;
+text-align: center;
+}
+
+.text h3{
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+margin-top: 27.46px;
+margin-left: 40px;
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #797979;
+}
+.text p{
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin-left: 40px;
+margin-top: 55px;
+
+display: flex;
+align-items: center;
+align-content: space-between;
+}
+.text h2{
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+margin-top: 89px;
+margin-left: 124px;
+display: flex;
+align-items: center;
 text-align: center;
 
 color: #38AF90;
 }
-.box{
-    width: 300px;
-    height: 326px;
-    left: 120px;
-    top: 1084px;
-   
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+#jogo1{
+position: absolute;
+width: 300px;
+height: 326px;
+left: 120px;
+top: 1084px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
 }
-.box-2{
+.jogo2{
+position: absolute;
 width: 300px;
 height: 326px;
 left: 450px;
 top: 1084px;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
 }
-.box-3{
-
+.jogo3{
+position: absolute;
 width: 300px;
 height: 326px;
 left: 780px;
 top: 1084px;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
 }
 .subscribe{
 position: absolute;
@@ -229,6 +298,53 @@ background: #FFFFFF;
 border: 1px solid #797979;
 border-radius: 4px;
 }
+.prefers{
+color: #797979;
+align-content: space-between;
+text-align: left;
+margin-left: 72px;
+font-family: 'poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+input[type=submit]{
+width: 244px;
+height: 67px;
+left: 330px;
+top: 2016px;
+background: #DD7E92;
+border-radius: 8px;
+}
+input[type=reset]{
+width: 244px;
+height: 67px;
+left: 626px;
+top: 2016px;
+margin-left: 52px;
+background: #FFFFFF;
+border: 2px solid #DD7E92;
+border-radius: 8px;
+}
+input[type=reset],input[type=submit]{
+margin-top: 38px;
+}
+input[type=submit][value=Enviar]{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF; 
+}
+input[type=reset][value=Limpar]{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #DD7E92;
+}
 .flooter
 {
 position: absolute;
@@ -243,18 +359,18 @@ background: #383838;
 }
 .contact
 {
-    font-family: poppins;
-    font-weight: 500;
-    display: flex; 
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px 0;
+font-family: poppins;
+font-weight: 500;
+display: flex; 
+justify-content: center;
+flex-wrap: wrap;
+margin: 10px 0;
 }
 .contact a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 1px;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
 }
 
 

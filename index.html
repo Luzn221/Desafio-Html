@@ -13,7 +13,7 @@
       <h1 class="logo">DSPlayGames</h1>
       <ul class="Navegation">
         <li><a href="#notices">Noticias</a></li>
-        <li><a href="#Games">Jogos</a></li>
+        <li><a href="#games">Jogos</a></li>
         <li><a href="#Subscribe">Inscreva-se</a></li>
       </ul>
     </header>
@@ -78,29 +78,37 @@
             fuga ...
           </p>
         </div>
+        <div>
+          <input type="button" value="Carregar Mais" />
+        </div>
       </section>
 
-      <section id="Games">
-        <div  class="games" >
-          <h2>Jogos</h2>
-          <div class="box">
-            <div>
+      <section>
+        <div>
+          <div class="caixa" id="games">
+            <h2>Jogos</h2>
+          </div>
+          <div class="text">
+            <div id="jogo1">
+              <img src="img/Horizon.png" alt="" />
+
               <h3>Horizon Forbidden West</h3>
               <p>De Sony Interactive Entertainment</p>
-              <p>9.7</p>
+              <h2>9.7</h2>
             </div>
-          </div>
 
-          <div class="box-2">
-            <h3>Horizon Forbidden West</h3>
-            <p>De Sony Interactive Entertainment</p>
-            <p>9.7</p>
-          </div>
-
-          <div class="box-3">
-            <h3>Horizon Forbidden West</h3>
-            <p>De Sony Interactive Entertainment</p>
-            <p>9.7</p>
+            <div class="jogo2">
+              <img src="img/Horizon.png" alt="" />
+              <h3>Horizon Forbidden West</h3>
+              <p>De Sony Interactive Entertainment</p>
+              <h2>9.7</h2>
+            </div>
+            <div class="jogo3">
+              <img src="img/Horizon.png" alt="" />
+              <h3>Horizon Forbidden West</h3>
+              <p>De Sony Interactive Entertainment</p>
+              <h2>9.7</h2>
+            </div>
           </div>
         </div>
       </section>
@@ -122,30 +130,30 @@
             <label for="ctrl-email"></label>
             <input id="ctrl-email" placeholder="Email" type="email" />
           </div>
-
           <div>
-            <label for="ctrl-prefers">Qual sua Plataforma Preferida?</label>
-            <div id="prefers">
-              <input type="radio" name="prefers" id="ctrl-prefers-1" />
-              <label for="ctrl-prefers-1">Pc</label>
+            <div class="prefers">
+              <label for="ctrl-prefers">Qual sua Plataforma Preferida?</label>
+              <div id="prefers">
+                <input type="radio" name="prefers" id="ctrl-prefers-1" />
+                <label for="ctrl-prefers-1">Pc</label>
 
-              <div>
-                <input type="radio" name="prefers" id="ctrl-prefers-" />
-                <label for="ctrl-prefers-2">Xbox</label>
+                <div>
+                  <input type="radio" name="prefers" id="ctrl-prefers-" />
+                  <label for="ctrl-prefers-2">Xbox</label>
+                </div>
+
+                <div>
+                  <input type="radio" name="prefers" id="ctrl-prefers-3" />
+                  <label for="ctrl-prefers-3">Playstation</label>
+                </div>
               </div>
-
-              <div>
-                <input type="radio" name="prefers" id="ctrl-prefers-3" />
-                <label for="ctrl-prefers-3">Playstation</label>
-              </div>
-
               <div>
                 <input type="checkbox" name="" id="" />
                 <label for="">Desejo Receber Novidades</label>
-                <div>
-                  <input type="submit" value="Enviar" />
-                  <input type="reset" value="Limpar" />
-                </div>
+              </div>
+              <div>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
               </div>
             </div>
           </div>
