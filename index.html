@@ -88,90 +88,97 @@
         </div>
       </section>
 
-      <section>
-        <div>
-          <div class="caixa" id="games">
-            <h2>Jogos</h2>
+      <section id="games">
+        <h2>Jogos</h2>
+        <div class="container">
+          <div class="card-games">
+            <img src="img/Horizon.png" alt="" />
+            <div class="card-description">
+              <h3>Horizon Forbidden West</h3>
+              <p>De Sony Interactive Entertainment</p>
+              <h4>9.7</h4>
+            </div>
           </div>
-          <div class="text">
-            <div id="jogo1">
-              <img src="img/Horizon.png" alt="" />
-
+          <div class="card-games">
+            <img src="img/Horizon.png" alt="" />
+            <div class="card-description">
               <h3>Horizon Forbidden West</h3>
               <p>De Sony Interactive Entertainment</p>
-              <h2>9.7</h2>
+              <h4>9.7</h4>
             </div>
-
-            <div class="jogo2">
-              <img src="img/Horizon.png" alt="" />
+          </div>
+          <div class="card-games">
+            <img src="img/Horizon.png" alt="" />
+            <div class="card-description">
               <h3>Horizon Forbidden West</h3>
               <p>De Sony Interactive Entertainment</p>
-              <h2>9.7</h2>
-            </div>
-            <div class="jogo3">
-              <img src="img/Horizon.png" alt="" />
-              <h3>Horizon Forbidden West</h3>
-              <p>De Sony Interactive Entertainment</p>
-              <h2>9.7</h2>
+              <h4>9.7</h4>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="subscribe" id="Subscribe">
-        <h2>Faça sua inscrição</h2>
+      <h2 id="h2-subscribe">Faça sua inscrição</h2>
+
+      <section id="Subscribe">
         <form action="Obrigado.html">
-          <div>
-            <label for="ctrl-name"></label>
-            <input
-              id="ctrl-name"
-              name="name"
-              placeholder="Nome Completo"
-              type="text"
-            />
-          </div>
+          <div class="container-subscribe">
+            <div>
+              <label for="ctrl-name"></label>
+              <input
+                id="ctrl-name"
+                name="name"
+                placeholder="Nome Completo"
+                type="text"
+              />
+            </div>
 
-          <div>
-            <label for="ctrl-email"></label>
-            <input id="ctrl-email" placeholder="Email" type="email" />
-          </div>
-          <div>
-            <div class="prefers">
-              <label for="ctrl-prefers">Qual sua Plataforma Preferida?</label>
-              <div id="prefers">
-                <input type="radio" name="prefers" id="ctrl-prefers-1" />
-                <label for="ctrl-prefers-1">Pc</label>
+            <div>
+              <label for="ctrl-email"></label>
+              <input id="ctrl-email" placeholder="Email" type="email" />
+            </div>
+            <div class="container-prefers">
+              <div class="prefers">
+                <label for="ctrl-prefers">Qual sua Plataforma Preferida?</label>
+                <div id="prefers">
+                  <input type="radio" name="prefers" id="ctrl-prefers-1" />
+                  <label for="ctrl-prefers-1">PC</label>
 
-                <div>
-                  <input type="radio" name="prefers" id="ctrl-prefers-" />
-                  <label for="ctrl-prefers-2">Xbox</label>
+                  <div>
+                    <input type="radio" name="prefers" id="ctrl-prefers-2" />
+                    <label for="ctrl-prefers-2">Xbox</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="prefers" id="ctrl-prefers-3" />
+                    <label for="ctrl-prefers-3">Playstation</label>
+                  </div>
                 </div>
-
                 <div>
-                  <input type="radio" name="prefers" id="ctrl-prefers-3" />
-                  <label for="ctrl-prefers-3">Playstation</label>
+                  <input type="checkbox" name="" id="checkbox" />
+                  <label for="">Desejo Receber Novidades</label>
                 </div>
-              </div>
-              <div>
-                <input type="checkbox" name="" id="" />
-                <label for="">Desejo Receber Novidades</label>
-              </div>
-              <div>
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Limpar" />
+                <div>
+                  <input type="submit" value="Enviar" />
+                  <input type="reset" value="Limpar" />
+                </div>
               </div>
             </div>
           </div>
         </form>
       </section>
     </main>
-    <footer class="flooter">
-      <div>
+    <footer>
+      <div class="container-footer">
         <div class="contact">
           <a href="#">@dsplaygames</a>
           <a href="#">/dsplaygames</a>
         </div>
         <p>DS Play Games Ltda. Todos direitos reservados</p>
+        <div class="politicaUso">
+          <a href="#">Política de privacidade</a>
+          <a href="#">Termo de Uso</a>
+        </div>
       </div>
     </footer>
   </body>
