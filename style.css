@@ -2,8 +2,10 @@
 
 :root {
   --text-color-gray--: #797979;
+  --text-color-white: #fff;
   --main-color--: #38af90;
   --box-color--: #f0f0f0;
+  --box-color-red: #dd7e92;
 }
 * {
   box-sizing: border-box;
@@ -26,7 +28,7 @@ header {
 
 .logo {
   font-size: 1.5em;
-  color: #ffff;
+  color: var(--text-color-white);
   font-weight: 700;
 }
 
@@ -42,7 +44,7 @@ header {
 }
 
 .Navegation a {
-  color: #fff;
+  color: var(--text-color-white);
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
@@ -51,7 +53,7 @@ header {
   text-align: center;
 }
 #notices h2 {
-  color: #797979;
+  color: var(--text-color-gray--);
   font-size: 36px;
   padding: 40px 0;
 }
@@ -61,7 +63,7 @@ header {
   margin: 0 auto;
 }
 .card-news {
-  background-color: #f0f0f0;
+  background-color: var(--box-color--);
   border-radius: 8px;
   padding: 15px 40px;
   text-align: left;
@@ -72,22 +74,22 @@ header {
 
 .card-news h3 {
   font-size: 24px;
-  color: #38af90;
+  color: var(--main-color--)
 }
 .card-news h4 {
-  border-bottom: 1px solid #38af90;
+  border-bottom: 1px solid var(--main-color--);
   font-size: 16px;
-  color: #797979;
+  color: var(--text-color-gray--);
   line-height: 24px;
   margin-bottom: 16px;
 }
 .card-news p {
   font-size: 10px;
-  color: #797979;
+  color: var(--text-color-gray--);
 }
 .card-news a,
 a:hover {
-  color: #dd7e92;
+  color: var(--box-color-red);
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
@@ -97,21 +99,21 @@ input[type="button"] {
   width: 244px;
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: var(--box-color--);
   border-radius: 8px;
-  background: #dd7e92;
+  background: var(--box-color-red);
   border: none;
   margin-bottom: 56px;
 }
 #games {
-  background-color: #f0f0f0;
+  background-color: var(--box-color--);
   height: 560px;
   text-align: center;
 }
 #games h2 {
   font-size: 36px;
   line-height: 54px;
-  color: #38af90;
+  color: var(--main-color--);
   padding: 36px;
 }
 .card-games img {
@@ -119,7 +121,7 @@ input[type="button"] {
   border-radius: 12px 12px 0 0;
 }
 .card-games {
-  background-color: #fff;
+  background-color: var(--text-color-white);
   width: 300px;
   border-radius: 12px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
@@ -136,7 +138,7 @@ input[type="button"] {
 }
 .card-description h3 {
   font-size: 18px;
-  color: #797979;
+  color: var(--text-color-gray--);
 }
 .card-description p {
   font-size: 12px;
@@ -144,11 +146,11 @@ input[type="button"] {
 }
 .card-description h4 {
   font-size: 36px;
-  color: #38af90;
+  color: var(--main-color--);
   padding-top: 13px;
 }
 #Subscribe {
-  background-color: #f0f0f0;
+  background-color: var(--box-color--);
   margin: 0 auto;
   height: 522px;
   width: 790px;
@@ -160,13 +162,12 @@ input[type="button"] {
   padding: 20px;
   color: #c4c4c4;
 }
-#h2-subscribe{
+#h2-subscribe {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   padding: 40px;
-  color: #797979;
-
+  color: var(--text-color-gray--);
 }
 input[type="text"],
 input[type="email"] {
@@ -174,39 +175,40 @@ input[type="email"] {
   height: 50px;
   margin-bottom: 20px;
   color: #c4c4c4;
-  background: #ffffff;
-  border: 1px solid #797979;
+  background: var(--text-color-white);
+  border: 1px solid var(--text-color-gray--);
   border-radius: 4px;
 }
 
 .prefers {
-  color: #797979;
+  color: var(--text-color-gray--);
   font-weight: 400;
   font-size: 16px;
-  
 }
 
-#ctrl-prefers-1,#ctrl-prefers-2,#ctrl-prefers-3{
-    width: 23px;
-    height: 23px;
-}
-#checkbox{
+#ctrl-prefers-1,
+#ctrl-prefers-2,
+#ctrl-prefers-3 {
   width: 23px;
   height: 23px;
 }
-input[type=submit] {
+#checkbox {
+  width: 23px;
+  height: 23px;
+}
+input[type="submit"] {
   width: 244px;
   height: 67px;
-  background: #dd7e92;
+  background: var(--box-color-red);
   border-radius: 8px;
 }
 
-input[type=reset] {
+input[type="reset"] {
   width: 244px;
   height: 67px;
   margin-left: 52px;
   background: #ffffff;
-  border: 2px solid #dd7e92;
+  border: 2px solid var(--box-color-red);
   border-radius: 8px;
 }
 
@@ -220,7 +222,7 @@ input[type="submit"] {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
+  color: var(--box-color--);
 }
 
 input[type="reset"] {
@@ -228,34 +230,34 @@ input[type="reset"] {
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  color: #dd7e92;
+  color: var(--box-color-red);
 }
 
-footer{
+footer {
   width: 100%;
   height: 190px;
   background: #383838;
   padding: 84px;
-  color: #fff;
-
+  color: var(--text-color-white);
 }
-.container-footer{
+.container-footer {
   display: flex;
   justify-content: space-between;
 }
-.contact a,a:hover{
+.contact a,
+a:hover {
   display: block;
   font-size: 14px;
-  color: #fff;
+  color: var(--text-color-white);
   text-decoration: none;
   font-weight: 400;
 }
 
-.politicaUso a,a:hover{
+.politicaUso a,
+a:hover {
   display: block;
-  color: #fff;
+  color: var(--text-color-white);
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
 }
-
